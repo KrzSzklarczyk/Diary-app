@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DodajWpis</class>
+ <widget class="QDialog" name="DodajWpis">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>824</width>
+    <height>397</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="6" column="0">
+    <widget class="QPushButton" name="pushButton_Dodaj">
+     <property name="text">
+      <string>Dodaj</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QDateTimeEdit" name="dateTimeEdit"/>
+   </item>
+   <item row="7" column="0">
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="text">
+      <string>Anuluj</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <widget class="QTextEdit" name="textEdit_Wpisztext"/>
+   </item>
+   <item row="5" column="0">
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QCheckBox" name="checkBox_Smutny">
+       <property name="text">
+        <string>Smutny</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="checkBox_Neutralny">
+       <property name="text">
+        <string>Neutralny</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="checkBox_Radosny">
+       <property name="text">
+        <string>Radosny</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
